@@ -18,7 +18,7 @@ Zet in Scratch eerst de taal op Nederlands via de wereldbol linksboven.
 
 ## Inleiding
 
-In deze opdracht ga je een "space shooter" spel bouwen, waarbij je een ruimteschip bestuurt dat meteorieten kapot moet schieten of ontwijken.
+In deze opdracht ga je een "space shooter" spel bouwen, waarbij je een ruimteschip bestuurt dat meteorieten kapot moet schieten of ontwijken. Het spel is gebaseerd op [dit project](https://www.youtube.com/watch?v=Mcc4LpbfOVM).
 
 Dit zijn de stappen die je gaat programmeren:
 
