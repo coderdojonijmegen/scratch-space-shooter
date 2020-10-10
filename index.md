@@ -66,7 +66,7 @@ De beweging van het ruimteschip kun je op verschillende manieren programmeren. J
       als &lt;toets [pijltje rechts v] ingedrukt?&gt; dan
       maak [snelheid_x] (-5)
       end
-      verander x met snelheid: (snelheid_x)
+      verander x met: (snelheid_x)
       maak [snelheid_x] ((snelheid_x) * (0.9))
       end
 {{< /scratch >}}
