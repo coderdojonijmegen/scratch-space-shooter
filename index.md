@@ -4,6 +4,7 @@ date: 2020-10-06T21:00:00+02:00
 draft: false
 toc: true
 headercolor: "teal-background"
+taal: Scratch
 ---
 
 Je gaat met Scratch een "space shooter" bouwen.
