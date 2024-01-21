@@ -13,9 +13,12 @@ Je gaat met Scratch een "space shooter" bouwen.
 
 ## Benodigdheden
 
-Deze opdrachten maak je met [Scratch](https://scratch.mit.edu/). Als je nog geen account had, maak dit dan eerst aan.
+Ga naar <a href="https://scratch.mit.edu/" target="_blank">https://scratch.mit.edu/</a> en klik op 'Aan de slag'.
 
-Zet in Scratch eerst de taal op Nederlands via de wereldbol linksboven.
+- Als je Scratch nog niet eerder hebt uitgeprobeerd, bekijk dan eerst de video onderaan die pagina.
+- Klik daarna op het groene pijltje naast de video om stap-voor-stap te leren hoe Scratch werkt.
+- Als je meer wil leren, klik dan bovenaan op 'Lessen', of ga hier verder met de handleiding. 
+
 
 ## Inleiding
 
@@ -30,11 +33,17 @@ Dit zijn de stappen die je gaat programmeren:
 
 Als je hierna nog zin (en tijd) hebt dan zijn er nog allerlei uitbreidingen mogelijk, denk bijvoorbeeld aan het spel steeds iets moeilijker maken of geluid en andere *special effects* toevoegen.
 
+<br>
+
 ## Laat een ruimteschip bewegen met de pijltjestoetsen
 
 Eerst moet je een sprite hebben voor je ruimteschip. Je kunt dit natuurlijk zelf ontwerpen, maar ook een bestaande sprite kiezen (bijvoorbeeld het *Rocketship*). Noem deze sprite *ruimteschip*.
 
-Zorg er eerst voor dat de sprite niet te groot is ten opzichte van het speelveld. Je kunt dit doen door het blok *maak grootte* te gebruiken dat je vindt in het menu *Uiterlijken*. Speel een beetje met het percentage om de goede grootte te vinden. Zorg ook dat het ruimteschip in het midden onderaan begint door het op x = 0 te plaatsen (x loopt van links naar rechts) en y zo in te stellen dat het nog net in beeld is. Je programma zou er nu ongeveer zo uit moeten zien:
+Zorg er eerst voor dat de sprite niet te groot is ten opzichte van het speelveld. Je kunt dit doen door het blok *maak grootte* te gebruiken dat je vindt in het menu *Uiterlijken*. 
+
+Speel een beetje met het percentage om de goede grootte te vinden. Zorg ook dat het ruimteschip in het midden onderaan begint door het op x = 0 te plaatsen (x loopt van links naar rechts) en y zo in te stellen dat het nog net in beeld is. 
+
+Je programma zou er nu ongeveer zo uit moeten zien:
 
 {{< scratch >}}
       wanneer groene vlag wordt aangeklikt
@@ -73,6 +82,8 @@ De beweging van het ruimteschip kun je op verschillende manieren programmeren. J
 {{< /scratch >}}
 {{< /voorbeeld >}}
 
+<br>
+
 ## Maak een bewegende achtergrond
 
 Sla dit plaatje voor de achtergrond van het spel op je computer op:
@@ -94,6 +105,8 @@ Plaats de ruimte-achtergrond aan het begin van het spel in het midden van het sp
       ga naar x: (0) y: (0)
 {{< /scratch >}}
 {{< /voorbeeld >}}
+
+<br>
 
 Nu ga je de achtergrond laten bewegen zodat het net is of je schip door de ruimte vliegt. **Vraag**: als je wil dat je schip vooruit vliegt, welke kant moet de achtergrond dan op gaan?
 
@@ -153,6 +166,8 @@ Wat je ziet is dat je voor deze manier twee achtergronden gebruikt: de sprite, e
 {{< /scratch >}}
 {{< /voorbeeld >}}
 
+<br>
+
 ## Laat meteorieten verschijnen en naar het ruimteschip vliegen
 
 Je hebt nu een ruimteschip dat door de ruimte vliegt en naar links en rechts kan bewegen. De hoogste tijd om de meteorieten te laten verschijnen! Dit ga je doen door steeds een nieuwe kloon van de "echte" sprite te maken.
@@ -207,6 +222,8 @@ En waarom ben je nu nog niet helemaal klaar? Omdat het slim is je klonen ook wee
 {{< /scratch >}}
 {{< /voorbeeld >}}
 
+<br>
+
 ## Schieten op de meteorieten
 
 Het is tijd om de meteorieten uit de weg te ruimen. Kies of maak een sprite die de kogel wordt, en noem deze ook *kogel*. Laat vervolgens een kogel "uit" het ruimteschip komen (bijvoorbeeld als je op de spatiebalk drukt) en naar het ruimteschip vliegen.
@@ -237,6 +254,8 @@ Het is tijd om de meteorieten uit de weg te ruimen. Kies of maak een sprite die 
       verwijder deze kloon
 {{< /scratch >}}
 {{< /voorbeeld >}}
+
+<br>
 
 ## Winnen en verliezen
 
@@ -283,6 +302,8 @@ Nu moeten we nog een paar stukken code toevoegen, namelijk:
 
 Dit was het, veel speelplezier!
 
+<br>
+
 ## Uitbreidingen
 
 Je kunt het spel natuurlijk nog veel mooier, spannender en moeilijker maken.
@@ -292,5 +313,9 @@ Hier heb je alvast een lijstje met ideeën als je nog verder wil programmeren:
 - laat de meteorieten niet alleen naar beneden komen maar ook echt op je ruimteschip af
 - laat de meteorieten sneller bewegen als je meer punten hebt gehaald
 - voeg geluiden en andere effecten toe
+
+<br>
+<br>
+<br>
 
 {{< licentie rel="http://creativecommons.org/licenses/by-nc-sa/4.0/">}}
